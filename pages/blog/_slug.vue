@@ -69,8 +69,8 @@ export default {
     if (process.browser) {
       this.$nextTick(() => {
         this.navHeight();
-        console.log(this.$store.state.navheight);
-        console.log("slug updated");
+        // console.log(this.$store.state.navheight);
+        // console.log("slug updated");
       });
     }
   },
@@ -79,8 +79,8 @@ export default {
       this.$nextTick(() => {
         this.navHeight();
         window.addEventListener("resize", this.onResize);
-        console.log(this.$store.state.navheight);
-        console.log("slug mounted");
+        // console.log(this.$store.state.navheight);
+        // console.log("slug mounted");
       });
     }
   },

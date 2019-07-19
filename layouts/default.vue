@@ -32,8 +32,8 @@ export default {
     if (process.browser) {
       this.$nextTick(() => {
         this.navHeight();
-        console.log(this.$store.state.navheight);
-        console.log("default updated");
+        // console.log(this.$store.state.navheight);
+        // console.log("default updated");
       });
     }
   },
